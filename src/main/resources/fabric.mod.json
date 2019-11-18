@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "unlimiter",
+  "version": "${version}",
+
+  "name": "Unlimiter",
+  "description": "Removes limits on the game's entity attributes",
+  "authors": [
+    "MarioAndWeegee3"
+  ],
+  "contact": {
+    "homepage": "https://marioandweegee3.github.io"
+  },
+
+  "license": "",
+  "icon": "assets/unlimiter/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "marioandweegee3.unlimiter.Unlimiter"
+    ]
+  },
+  "mixins": [
+    "unlimiter.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "marioandweegee3.unlimiter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityAttributeMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
