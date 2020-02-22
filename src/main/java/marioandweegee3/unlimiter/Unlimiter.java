@@ -85,8 +85,6 @@ public class Unlimiter implements ModInitializer {
         for (ConfigEntry entry : configuredAttributes.values()) {
             entry.log(s -> log(s));
         }
-        ServerStartCallback.EVENT.register(
-            (server) -> {
                     log("Found the following config entries:");
                     for (ConfigEntry entry : configuredAttributes.values()) {
                         entry.log(s -> log(s));
@@ -114,8 +112,6 @@ public class Unlimiter implements ModInitializer {
                             }
                         }
                     }
-            }
-        );
     }
 
     public static void log(CharSequence message){
